@@ -12,6 +12,7 @@ namespace IRF_project_mz6grm
 {
 	public partial class Form1 : Form
 	{
+		DatabaseEntities context = new DatabaseEntities();
 		public Form1()
 		{
 			InitializeComponent();
