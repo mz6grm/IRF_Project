@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace IRF_Project_mz6grm.Properties
+namespace IRF_project_mz6grm.Properties
 {
 
 

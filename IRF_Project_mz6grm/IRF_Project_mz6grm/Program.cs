@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace IRF_Project_mz6grm
+namespace IRF_project_mz6grm
 {
 	static class Program
 	{

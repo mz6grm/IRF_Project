@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace IRF_Project_mz6grm.Properties
+namespace IRF_project_mz6grm.Properties
 {
 
 
@@ -44,7 +44,7 @@ namespace IRF_Project_mz6grm.Properties
 			{
 				if ((resourceMan == null))
 				{
-					global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("IRF_Project_mz6grm.Properties.Resources", typeof(Resources).Assembly);
+					global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("IRF_project_mz6grm.Properties.Resources", typeof(Resources).Assembly);
 					resourceMan = temp;
 				}
 				return resourceMan;

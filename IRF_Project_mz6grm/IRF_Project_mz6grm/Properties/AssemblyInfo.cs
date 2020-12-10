@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("IRF_Project_mz6grm")]
+[assembly: AssemblyTitle("IRF_project_mz6grm")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("IRF_Project_mz6grm")]
+[assembly: AssemblyProduct("IRF_project_mz6grm")]
 [assembly: AssemblyCopyright("Copyright ©  2020")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("aa265ae8-1237-48cc-8de4-6a91f46d9e25")]
+[assembly: Guid("51e038c7-747e-4bba-b14d-efa9d6a20615")]
 
 // Version information for an assembly consists of the following four values:
 //
