@@ -74,12 +74,17 @@ namespace IRF_project_mz6grm
 		{
 			chart1.ChartAreas[0].AxisX.Interval = 1; //minden adat szerepeljen
 			chart2.ChartAreas[0].AxisX.Interval = 1;
+			chart3.ChartAreas[0].AxisX.Interval = 0;
 			chart1.ChartAreas[0].AxisY.IsStartedFromZero = false; //adatértékek jól különüljenek el
 			chart2.ChartAreas[0].AxisY.IsStartedFromZero = false;
 			chart1.ChartAreas[0].AxisX.MajorGrid.Enabled = false; //rácsvonalak ne látszódjanak
 			chart1.ChartAreas[0].AxisY.MajorGrid.Enabled = false;
 			chart2.ChartAreas[0].AxisX.MajorGrid.Enabled = false; 
-			chart2.ChartAreas[0].AxisY.MajorGrid.Enabled = false;
+			chart2.ChartAreas[0].AxisY.MajorGrid.Enabled = false;		
+			/*if(chart3.ChartAreas[0].AxisX.Name == chart3.ChartAreas[0].AxisX.Name)
+			{
+				chart3.ChartAreas[0].AxisY.LabelStyle.ForeColor = chart3.ChartAreas[0].AxisY.LabelStyle.ForeColor;
+			}*/
 		}
 
 		private void TextCountry_TextChanged(object sender, EventArgs e)

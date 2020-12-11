@@ -40,9 +40,9 @@
 			this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
 			this.label1.Location = new System.Drawing.Point(23, 62);
 			this.label1.Name = "label1";
-			this.label1.Size = new System.Drawing.Size(369, 26);
+			this.label1.Size = new System.Drawing.Size(396, 26);
 			this.label1.TabIndex = 0;
-			this.label1.Text = "Az adatokból megállapítható, hogy ...";
+			this.label1.Text = "From the visualizations, it\'s obvious that";
 			// 
 			// label2
 			// 

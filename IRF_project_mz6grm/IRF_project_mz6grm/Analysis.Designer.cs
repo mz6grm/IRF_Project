@@ -29,15 +29,15 @@
 		private void InitializeComponent()
 		{
 			this.components = new System.ComponentModel.Container();
-			System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea7 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-			System.Windows.Forms.DataVisualization.Charting.Legend legend7 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-			System.Windows.Forms.DataVisualization.Charting.Series series7 = new System.Windows.Forms.DataVisualization.Charting.Series();
-			System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea8 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-			System.Windows.Forms.DataVisualization.Charting.Legend legend8 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-			System.Windows.Forms.DataVisualization.Charting.Series series8 = new System.Windows.Forms.DataVisualization.Charting.Series();
-			System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea9 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-			System.Windows.Forms.DataVisualization.Charting.Legend legend9 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-			System.Windows.Forms.DataVisualization.Charting.Series series9 = new System.Windows.Forms.DataVisualization.Charting.Series();
+			System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea1 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+			System.Windows.Forms.DataVisualization.Charting.Legend legend1 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+			System.Windows.Forms.DataVisualization.Charting.Series series1 = new System.Windows.Forms.DataVisualization.Charting.Series();
+			System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea2 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+			System.Windows.Forms.DataVisualization.Charting.Legend legend2 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+			System.Windows.Forms.DataVisualization.Charting.Series series2 = new System.Windows.Forms.DataVisualization.Charting.Series();
+			System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea3 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+			System.Windows.Forms.DataVisualization.Charting.Legend legend3 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+			System.Windows.Forms.DataVisualization.Charting.Series series3 = new System.Windows.Forms.DataVisualization.Charting.Series();
 			this.TextCountry = new System.Windows.Forms.TextBox();
 			this.ListCountry = new System.Windows.Forms.ListBox();
 			this.dataGridView1 = new System.Windows.Forms.DataGridView();
@@ -249,67 +249,67 @@
 			// 
 			// chart1
 			// 
-			chartArea7.Name = "ChartArea1";
-			this.chart1.ChartAreas.Add(chartArea7);
+			chartArea1.Name = "ChartArea1";
+			this.chart1.ChartAreas.Add(chartArea1);
 			this.chart1.DataSource = this.happiness15BindingSource1;
-			legend7.Name = "Legend1";
-			this.chart1.Legends.Add(legend7);
+			legend1.Name = "Legend1";
+			this.chart1.Legends.Add(legend1);
 			this.chart1.Location = new System.Drawing.Point(13, 452);
 			this.chart1.Name = "chart1";
-			series7.ChartArea = "ChartArea1";
-			series7.Font = new System.Drawing.Font("Microsoft Sans Serif", 7F);
-			series7.IsValueShownAsLabel = true;
-			series7.IsXValueIndexed = true;
-			series7.Legend = "Legend1";
-			series7.Name = "Happiness15";
-			series7.SmartLabelStyle.IsOverlappedHidden = false;
-			series7.XValueMember = "Country";
-			series7.YValueMembers = "Happiness_index15";
-			this.chart1.Series.Add(series7);
+			series1.ChartArea = "ChartArea1";
+			series1.Font = new System.Drawing.Font("Microsoft Sans Serif", 7F);
+			series1.IsValueShownAsLabel = true;
+			series1.IsXValueIndexed = true;
+			series1.Legend = "Legend1";
+			series1.Name = "Happiness15";
+			series1.SmartLabelStyle.IsOverlappedHidden = false;
+			series1.XValueMember = "Country";
+			series1.YValueMembers = "Happiness_index15";
+			this.chart1.Series.Add(series1);
 			this.chart1.Size = new System.Drawing.Size(629, 300);
 			this.chart1.TabIndex = 9;
 			this.chart1.Text = "chart1";
 			// 
 			// chart2
 			// 
-			chartArea8.Name = "ChartArea1";
-			this.chart2.ChartAreas.Add(chartArea8);
+			chartArea2.Name = "ChartArea1";
+			this.chart2.ChartAreas.Add(chartArea2);
 			this.chart2.DataSource = this.happiness20BindingSource2;
-			legend8.Name = "Legend1";
-			this.chart2.Legends.Add(legend8);
+			legend2.Name = "Legend1";
+			this.chart2.Legends.Add(legend2);
 			this.chart2.Location = new System.Drawing.Point(649, 452);
 			this.chart2.Name = "chart2";
-			series8.ChartArea = "ChartArea1";
-			series8.Font = new System.Drawing.Font("Microsoft Sans Serif", 7F);
-			series8.IsValueShownAsLabel = true;
-			series8.IsXValueIndexed = true;
-			series8.Legend = "Legend1";
-			series8.Name = "Happiness20";
-			series8.SmartLabelStyle.IsOverlappedHidden = false;
-			series8.XValueMember = "Country";
-			series8.YValueMembers = "Happiness_index20";
-			this.chart2.Series.Add(series8);
+			series2.ChartArea = "ChartArea1";
+			series2.Font = new System.Drawing.Font("Microsoft Sans Serif", 7F);
+			series2.IsValueShownAsLabel = true;
+			series2.IsXValueIndexed = true;
+			series2.Legend = "Legend1";
+			series2.Name = "Happiness20";
+			series2.SmartLabelStyle.IsOverlappedHidden = false;
+			series2.XValueMember = "Country";
+			series2.YValueMembers = "Happiness_index20";
+			this.chart2.Series.Add(series2);
 			this.chart2.Size = new System.Drawing.Size(629, 300);
 			this.chart2.TabIndex = 10;
 			this.chart2.Text = "chart2";
 			// 
 			// chart3
 			// 
-			chartArea9.Name = "ChartArea1";
-			this.chart3.ChartAreas.Add(chartArea9);
+			chartArea3.Name = "ChartArea1";
+			this.chart3.ChartAreas.Add(chartArea3);
 			this.chart3.DataSource = this.happiness20BindingSource;
-			legend9.Name = "Legend1";
-			this.chart3.Legends.Add(legend9);
+			legend3.Name = "Legend1";
+			this.chart3.Legends.Add(legend3);
 			this.chart3.Location = new System.Drawing.Point(434, 90);
 			this.chart3.Name = "chart3";
-			series9.ChartArea = "ChartArea1";
-			series9.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Pie;
-			series9.IsXValueIndexed = true;
-			series9.Legend = "Legend1";
-			series9.Name = "Happiness - Continents 2020";
-			series9.XValueMember = "Continent";
-			series9.YValueMembers = "Happiness_index20";
-			this.chart3.Series.Add(series9);
+			series3.ChartArea = "ChartArea1";
+			series3.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Pie;
+			series3.IsXValueIndexed = true;
+			series3.Legend = "Legend1";
+			series3.Name = "Happiness - Continents 2020";
+			series3.XValueMember = "Continent";
+			series3.YValueMembers = "Happiness_index20";
+			this.chart3.Series.Add(series3);
 			this.chart3.Size = new System.Drawing.Size(426, 356);
 			this.chart3.TabIndex = 11;
 			this.chart3.Text = "chart3";
