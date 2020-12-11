@@ -39,6 +39,7 @@
 			this.button2 = new System.Windows.Forms.Button();
 			this.button3 = new System.Windows.Forms.Button();
 			this.label6 = new System.Windows.Forms.Label();
+			this.label7 = new System.Windows.Forms.Label();
 			this.SuspendLayout();
 			// 
 			// textBox1
@@ -149,11 +150,21 @@
 			this.label6.TabIndex = 10;
 			this.label6.Text = "or";
 			// 
+			// label7
+			// 
+			this.label7.AutoSize = true;
+			this.label7.Location = new System.Drawing.Point(12, 428);
+			this.label7.Name = "label7";
+			this.label7.Size = new System.Drawing.Size(268, 13);
+			this.label7.TabIndex = 11;
+			this.label7.Text = "*Data downloaded from: https://worldhappiness.report/";
+			// 
 			// Form1
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 			this.ClientSize = new System.Drawing.Size(835, 450);
+			this.Controls.Add(this.label7);
 			this.Controls.Add(this.label6);
 			this.Controls.Add(this.button3);
 			this.Controls.Add(this.button2);
@@ -185,6 +196,7 @@
 		private System.Windows.Forms.Button button2;
 		private System.Windows.Forms.Button button3;
 		private System.Windows.Forms.Label label6;
+		private System.Windows.Forms.Label label7;
 	}
 }
 

@@ -20,6 +20,7 @@ namespace IRF_project_mz6grm
 			ListCountry2.DisplayMember = "Country";
 			SearchCountry();
 			SearchCountry2();
+			Charts();			
 		}
 
 		//Metódusaim:
@@ -69,6 +70,18 @@ namespace IRF_project_mz6grm
 			databaseDataSetBindingSource1.DataSource = data.ToList();
 		}
 
+		private void Charts()
+		{
+			chart1.ChartAreas[0].AxisX.Interval = 1; //minden adat szerepeljen
+			chart2.ChartAreas[0].AxisX.Interval = 1;
+			chart1.ChartAreas[0].AxisY.IsStartedFromZero = false; //adatértékek jól különüljenek el
+			chart2.ChartAreas[0].AxisY.IsStartedFromZero = false;
+			chart1.ChartAreas[0].AxisX.MajorGrid.Enabled = false; //rácsvonalak ne látszódjanak
+			chart1.ChartAreas[0].AxisY.MajorGrid.Enabled = false;
+			chart2.ChartAreas[0].AxisX.MajorGrid.Enabled = false; 
+			chart2.ChartAreas[0].AxisY.MajorGrid.Enabled = false;
+		}
+
 		private void TextCountry_TextChanged(object sender, EventArgs e)
 		{
 			SearchCountry();
@@ -96,6 +109,12 @@ namespace IRF_project_mz6grm
 		private void ListCountry2_SelectedIndexChanged(object sender, EventArgs e)
 		{
 			SearchPlace2();
+		}
+
+		private void button1_Click(object sender, EventArgs e)
+		{
+			Conclusion form2 = new Conclusion();
+			form2.Show();
 		}
 	}
 }
