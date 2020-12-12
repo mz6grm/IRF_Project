@@ -1,4 +1,5 @@
-﻿using System;
+﻿using IRF_project_mz6grm.Entities;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -7,15 +8,28 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Rectangle = IRF_project_mz6grm.Entities.Rectangle; //érdekes
 
 namespace IRF_project_mz6grm
 {
 	public partial class Analysis : Form
 	{
 		DatabaseEntities context = new DatabaseEntities();
+
+		private List<Rectangle> _rectangles = new List<Rectangle>();
+
+		private RectangleFactory _factory;
+		public RectangleFactory Factory
+		{
+			get { return _factory; }
+			set { _factory = value; }
+		}
 		public Analysis()
 		{
 			InitializeComponent();
+
+			Factory = new RectangleFactory();
+
 			ListCountry.DisplayMember = "Country";
 			ListCountry2.DisplayMember = "Country";
 			SearchCountry();
@@ -120,6 +134,32 @@ namespace IRF_project_mz6grm
 		{
 			Conclusion form2 = new Conclusion();
 			form2.Show();
+		}
+
+		private void CreateTimer_Tick(object sender, EventArgs e)
+		{
+			var rectangle = Factory.CreateNew();
+			_rectangles.Add(rectangle);			
+			rectangle.Top = +rectangle.Height;
+			mainPanel15.Controls.Add(rectangle);			
+		}
+
+		private void ConveyourTimer_Tick(object sender, EventArgs e)
+		{
+			var maxPosition = 0;
+			foreach (var rectangle in _rectangles)
+			{
+				rectangle.MoveRectangle();				
+				if (rectangle.Top > maxPosition)
+					maxPosition = rectangle.Top;
+			}
+			
+			if (maxPosition > 1000)
+			{
+				var oldestRectangle = _rectangles[0];
+				mainPanel15.Controls.Remove(oldestRectangle);				
+				_rectangles.Remove(oldestRectangle);
+			}
 		}
 	}
 }
