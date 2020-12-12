@@ -49,33 +49,34 @@
 			this.label2.AutoSize = true;
 			this.label2.BackColor = System.Drawing.SystemColors.ActiveCaption;
 			this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-			this.label2.Location = new System.Drawing.Point(401, 131);
+			this.label2.Location = new System.Drawing.Point(154, 118);
 			this.label2.Name = "label2";
-			this.label2.Size = new System.Drawing.Size(51, 20);
+			this.label2.Size = new System.Drawing.Size(634, 20);
 			this.label2.TabIndex = 1;
-			this.label2.Text = "label2";
+			this.label2.Text = "Western Europe, North America and Australia has the highest Happiness index count" +
+    "ries";
 			// 
 			// label3
 			// 
 			this.label3.AutoSize = true;
 			this.label3.BackColor = System.Drawing.SystemColors.ActiveCaption;
 			this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-			this.label3.Location = new System.Drawing.Point(401, 189);
+			this.label3.Location = new System.Drawing.Point(154, 183);
 			this.label3.Name = "label3";
-			this.label3.Size = new System.Drawing.Size(51, 20);
+			this.label3.Size = new System.Drawing.Size(378, 20);
 			this.label3.TabIndex = 2;
-			this.label3.Text = "label3";
+			this.label3.Text = "Central and Eastern Europe has a growing tendency";
 			// 
 			// label4
 			// 
 			this.label4.AutoSize = true;
 			this.label4.BackColor = System.Drawing.SystemColors.ActiveCaption;
 			this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-			this.label4.Location = new System.Drawing.Point(401, 246);
+			this.label4.Location = new System.Drawing.Point(154, 249);
 			this.label4.Name = "label4";
-			this.label4.Size = new System.Drawing.Size(51, 20);
+			this.label4.Size = new System.Drawing.Size(434, 20);
 			this.label4.TabIndex = 3;
-			this.label4.Text = "label4";
+			this.label4.Text = "In the Middle East there is no change of the best 2 countries";
 			// 
 			// Conclusion
 			// 
