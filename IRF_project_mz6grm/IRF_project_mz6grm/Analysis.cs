@@ -161,5 +161,31 @@ namespace IRF_project_mz6grm
 				_rectangles.Remove(oldestRectangle);
 			}
 		}
+
+		private void CreateTimer2_Tick(object sender, EventArgs e)
+		{
+			var rectangle = Factory.CreateNew();
+			_rectangles.Add(rectangle);
+			rectangle.Top = +rectangle.Height;
+			mainPanel20.Controls.Add(rectangle);
+		}
+
+		private void ConveyourTimer2_Tick(object sender, EventArgs e)
+		{
+			var maxPosition = 0;
+			foreach (var rectangle in _rectangles)
+			{
+				rectangle.MoveRectangle();
+				if (rectangle.Top > maxPosition)
+					maxPosition = rectangle.Top;
+			}
+
+			if (maxPosition > 1000)
+			{
+				var oldestRectangle = _rectangles[0];
+				mainPanel20.Controls.Remove(oldestRectangle);
+				_rectangles.Remove(oldestRectangle);
+			}
+		}
 	}
 }

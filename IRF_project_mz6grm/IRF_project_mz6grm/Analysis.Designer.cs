@@ -29,15 +29,15 @@
 		private void InitializeComponent()
 		{
 			this.components = new System.ComponentModel.Container();
-			System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea46 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-			System.Windows.Forms.DataVisualization.Charting.Legend legend46 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-			System.Windows.Forms.DataVisualization.Charting.Series series46 = new System.Windows.Forms.DataVisualization.Charting.Series();
-			System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea47 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-			System.Windows.Forms.DataVisualization.Charting.Legend legend47 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-			System.Windows.Forms.DataVisualization.Charting.Series series47 = new System.Windows.Forms.DataVisualization.Charting.Series();
-			System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea48 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-			System.Windows.Forms.DataVisualization.Charting.Legend legend48 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-			System.Windows.Forms.DataVisualization.Charting.Series series48 = new System.Windows.Forms.DataVisualization.Charting.Series();
+			System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea7 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+			System.Windows.Forms.DataVisualization.Charting.Legend legend7 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+			System.Windows.Forms.DataVisualization.Charting.Series series7 = new System.Windows.Forms.DataVisualization.Charting.Series();
+			System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea8 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+			System.Windows.Forms.DataVisualization.Charting.Legend legend8 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+			System.Windows.Forms.DataVisualization.Charting.Series series8 = new System.Windows.Forms.DataVisualization.Charting.Series();
+			System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea9 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+			System.Windows.Forms.DataVisualization.Charting.Legend legend9 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+			System.Windows.Forms.DataVisualization.Charting.Series series9 = new System.Windows.Forms.DataVisualization.Charting.Series();
 			this.TextCountry = new System.Windows.Forms.TextBox();
 			this.ListCountry = new System.Windows.Forms.ListBox();
 			this.dataGridView1 = new System.Windows.Forms.DataGridView();
@@ -77,6 +77,8 @@
 			this.ConveyourTimer = new System.Windows.Forms.Timer(this.components);
 			this.label8 = new System.Windows.Forms.Label();
 			this.label9 = new System.Windows.Forms.Label();
+			this.CreateTimer2 = new System.Windows.Forms.Timer(this.components);
+			this.ConveyourTimer2 = new System.Windows.Forms.Timer(this.components);
 			((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
 			((System.ComponentModel.ISupportInitialize)(this.databaseDataSet)).BeginInit();
 			((System.ComponentModel.ISupportInitialize)(this.databaseDataSetBindingSource)).BeginInit();
@@ -257,67 +259,67 @@
 			// 
 			// chart1
 			// 
-			chartArea46.Name = "ChartArea1";
-			this.chart1.ChartAreas.Add(chartArea46);
+			chartArea7.Name = "ChartArea1";
+			this.chart1.ChartAreas.Add(chartArea7);
 			this.chart1.DataSource = this.happiness15BindingSource1;
-			legend46.Name = "Legend1";
-			this.chart1.Legends.Add(legend46);
+			legend7.Name = "Legend1";
+			this.chart1.Legends.Add(legend7);
 			this.chart1.Location = new System.Drawing.Point(13, 452);
 			this.chart1.Name = "chart1";
-			series46.ChartArea = "ChartArea1";
-			series46.Font = new System.Drawing.Font("Microsoft Sans Serif", 7F);
-			series46.IsValueShownAsLabel = true;
-			series46.IsXValueIndexed = true;
-			series46.Legend = "Legend1";
-			series46.Name = "Happiness15";
-			series46.SmartLabelStyle.IsOverlappedHidden = false;
-			series46.XValueMember = "Country";
-			series46.YValueMembers = "Happiness_index15";
-			this.chart1.Series.Add(series46);
+			series7.ChartArea = "ChartArea1";
+			series7.Font = new System.Drawing.Font("Microsoft Sans Serif", 7F);
+			series7.IsValueShownAsLabel = true;
+			series7.IsXValueIndexed = true;
+			series7.Legend = "Legend1";
+			series7.Name = "Happiness15";
+			series7.SmartLabelStyle.IsOverlappedHidden = false;
+			series7.XValueMember = "Country";
+			series7.YValueMembers = "Happiness_index15";
+			this.chart1.Series.Add(series7);
 			this.chart1.Size = new System.Drawing.Size(629, 300);
 			this.chart1.TabIndex = 9;
 			this.chart1.Text = "chart1";
 			// 
 			// chart2
 			// 
-			chartArea47.Name = "ChartArea1";
-			this.chart2.ChartAreas.Add(chartArea47);
+			chartArea8.Name = "ChartArea1";
+			this.chart2.ChartAreas.Add(chartArea8);
 			this.chart2.DataSource = this.happiness20BindingSource2;
-			legend47.Name = "Legend1";
-			this.chart2.Legends.Add(legend47);
+			legend8.Name = "Legend1";
+			this.chart2.Legends.Add(legend8);
 			this.chart2.Location = new System.Drawing.Point(649, 452);
 			this.chart2.Name = "chart2";
-			series47.ChartArea = "ChartArea1";
-			series47.Font = new System.Drawing.Font("Microsoft Sans Serif", 7F);
-			series47.IsValueShownAsLabel = true;
-			series47.IsXValueIndexed = true;
-			series47.Legend = "Legend1";
-			series47.Name = "Happiness20";
-			series47.SmartLabelStyle.IsOverlappedHidden = false;
-			series47.XValueMember = "Country";
-			series47.YValueMembers = "Happiness_index20";
-			this.chart2.Series.Add(series47);
+			series8.ChartArea = "ChartArea1";
+			series8.Font = new System.Drawing.Font("Microsoft Sans Serif", 7F);
+			series8.IsValueShownAsLabel = true;
+			series8.IsXValueIndexed = true;
+			series8.Legend = "Legend1";
+			series8.Name = "Happiness20";
+			series8.SmartLabelStyle.IsOverlappedHidden = false;
+			series8.XValueMember = "Country";
+			series8.YValueMembers = "Happiness_index20";
+			this.chart2.Series.Add(series8);
 			this.chart2.Size = new System.Drawing.Size(629, 300);
 			this.chart2.TabIndex = 10;
 			this.chart2.Text = "chart2";
 			// 
 			// chart3
 			// 
-			chartArea48.Name = "ChartArea1";
-			this.chart3.ChartAreas.Add(chartArea48);
+			chartArea9.Name = "ChartArea1";
+			this.chart3.ChartAreas.Add(chartArea9);
 			this.chart3.DataSource = this.happiness20BindingSource;
-			legend48.Name = "Legend1";
-			this.chart3.Legends.Add(legend48);
+			legend9.Name = "Legend1";
+			this.chart3.Legends.Add(legend9);
 			this.chart3.Location = new System.Drawing.Point(434, 90);
 			this.chart3.Name = "chart3";
-			series48.ChartArea = "ChartArea1";
-			series48.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Pie;
-			series48.IsXValueIndexed = true;
-			series48.Legend = "Legend1";
-			series48.Name = "Happiness - Continents 2020";
-			series48.XValueMember = "Continent";
-			series48.YValueMembers = "Happiness_index20";
-			this.chart3.Series.Add(series48);
+			series9.ChartArea = "ChartArea1";
+			series9.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Pie;
+			series9.IsXValueIndexed = true;
+			series9.Legend = "Legend1";
+			series9.Name = "Happiness - Continents 2020";
+			series9.XValueMember = "Continent";
+			series9.YValueMembers = "Happiness_index20";
+			this.chart3.Series.Add(series9);
 			this.chart3.Size = new System.Drawing.Size(426, 356);
 			this.chart3.TabIndex = 11;
 			this.chart3.Text = "chart3";
@@ -434,6 +436,18 @@
 			this.label9.TabIndex = 20;
 			this.label9.Text = "-------->6,0";
 			// 
+			// CreateTimer2
+			// 
+			this.CreateTimer2.Enabled = true;
+			this.CreateTimer2.Interval = 3000;
+			this.CreateTimer2.Tick += new System.EventHandler(this.CreateTimer2_Tick);
+			// 
+			// ConveyourTimer2
+			// 
+			this.ConveyourTimer2.Enabled = true;
+			this.ConveyourTimer2.Interval = 10;
+			this.ConveyourTimer2.Tick += new System.EventHandler(this.ConveyourTimer2_Tick);
+			// 
 			// Analysis
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -522,5 +536,7 @@
 		private System.Windows.Forms.Timer ConveyourTimer;
 		private System.Windows.Forms.Label label8;
 		private System.Windows.Forms.Label label9;
+		private System.Windows.Forms.Timer CreateTimer2;
+		private System.Windows.Forms.Timer ConveyourTimer2;
 	}
 }

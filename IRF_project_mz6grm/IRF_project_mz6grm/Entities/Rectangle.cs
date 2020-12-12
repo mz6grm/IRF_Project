@@ -14,7 +14,7 @@ namespace IRF_project_mz6grm.Entities
         {
             AutoSize = false;
             Width = 40;
-            Height = 45;
+            Height = 50;
             Paint += Rectangle_Paint;
         }
 

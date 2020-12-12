@@ -16,5 +16,10 @@ namespace IRF_project_mz6grm
 		{
 			InitializeComponent();
 		}
+
+		private void button1_Click(object sender, EventArgs e)
+		{
+
+		}
 	}
 }
