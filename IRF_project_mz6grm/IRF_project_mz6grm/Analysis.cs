@@ -86,10 +86,10 @@ namespace IRF_project_mz6grm
 
 		private void Charts()
 		{
-			chart1.ChartAreas[0].AxisX.Interval = 1; //minden adat szerepeljen
+			chart1.ChartAreas[0].AxisX.Interval = 1; //minden X tengely adat szerepeljen
 			chart2.ChartAreas[0].AxisX.Interval = 1;
 			chart3.ChartAreas[0].AxisX.Interval = 0;
-			chart1.ChartAreas[0].AxisY.IsStartedFromZero = false; //adatértékek jól különüljenek el
+			chart1.ChartAreas[0].AxisY.IsStartedFromZero = false; //adatértékek jól különüljenek el (megjelenítés)
 			chart2.ChartAreas[0].AxisY.IsStartedFromZero = false;
 			chart1.ChartAreas[0].AxisX.MajorGrid.Enabled = false; //rácsvonalak ne látszódjanak
 			chart1.ChartAreas[0].AxisY.MajorGrid.Enabled = false;
